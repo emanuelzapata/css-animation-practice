@@ -1,0 +1,17 @@
+.firstName-animation{
+    color:red;
+    animation-name:glimmer;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;     
+}
+@keyframes glimmer {
+    0%{
+        color:red;
+    }
+    50%{
+        color:blue
+    }
+    100%{
+        color:red;
+    }
+}
